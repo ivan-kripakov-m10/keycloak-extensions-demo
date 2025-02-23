@@ -32,5 +32,6 @@ services:
       - ./rest-endpoint/target/dasniko.keycloak-rest-endpoint.jar:/opt/keycloak/providers/rest-endpoint.jar
       - ./tokenmapper/target/dasniko.keycloak-tokenmapper.jar:/opt/keycloak/providers/tokenmapper.jar
       - ./utils/target/dasniko.keycloak-keycloak-utils.jar:/opt/keycloak/providers/dasniko.keycloak-utils.jar
+      - ./lotr-userprovider/target/lotr-userprovider-1.0-SNAPSHOT.jar:/opt/keycloak/providers/lotr-userprovider.jar
     extra_hosts:
       - "host.docker.internal:host-gateway"

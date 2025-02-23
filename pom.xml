@@ -29,6 +29,7 @@
 		<module>admin-ui</module>
 		<module>scheduled-task</module>
 		<module>various</module>
+		<module>lotr-userprovider</module>
 	</modules>
 
 	<properties>
